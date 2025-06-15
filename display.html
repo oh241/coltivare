@@ -8,6 +8,14 @@
     <h2 style="text-align:center;">Group 13 <br>Team Members:</h2>
     <p style="text-align:center;"> Aidan Storey <br> Andrew Snyder <br> Mitchell Oh <br> Nicholas Siebel
   <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <footer>
+    <p> Last updated: </p> <p id="updated"></p>
+  </footer>
+    
+  <script>  
+  const date = new Date(document.lastModified);
+  document.getElementById("updated").innerHTML = date;
+  </script>    
     
   </body>
 </html>
